@@ -1,0 +1,12 @@
+---
+bootstrap_url: http://192.168.1.58:8080
+cluster_name: 'DC/OS'
+exhibitor_storage_backend: static
+ip_detect_filename: /genconf/ip-detect
+master_list:
+- 192.168.1.100
+resolvers:
+- 192.168.1.254
+- 119.6.6.6
+oauth_enabled: 'false'
+telemetry_enabled: 'false'
